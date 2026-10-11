@@ -1,87 +1,81 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-```
-<title>About Me</title>
-
-<!-- CSS Link -->
-<link rel="stylesheet" href="style.css">
-```
-
+    <title>personal website</title>
+    
 </head>
-
 <body>
+    <header>
+    <h1>Tooba shafique personal website</h1>
+    welcome to my website
+    <nav>
+        
+        <a href="#Home"> Home </a>
+        <a href="#About"> About </a>
+        <a href="#Skill"> Skill </a>
+        <a href="#contect"> Contect </a>
+    </nav>
+    </header>
+    <main>
+        <section id="Home">
+            <h2>Home</h2>
+            <p>welcome to my personal website</p>
+        </section>
+        <section id="About">
+            <h2>About me</h2>
+            <p>my name is tooba shafique</p>
+            <p>i live in islamabad </p>
+        </section>
+        <section id="Skill">
+            <h2>My Skills</h2>
+            <ul>
+                <li>
+                webdevelopment
+                </li>
+                <li>
+                digitial markting 
+                </li>
+                <li>Python</li>
+                <li>MS office</li>
+                <li>SEO</li>
 
-```
-<!-- Header -->
-<header>
-    <h1>About Me</h1>
-    <p>Welcome to my personal webpage</p>
-</header>
+            </ul>
 
-<!-- Navigation -->
-<nav>
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
-</nav>
 
-<!-- Main Content -->
-<main>
+        </section>
 
-    <!-- About Section -->
-    <section id="about">
-        <h2>About Me</h2>
-
-        <p>
-            Hello! My name is Haya Noor. I am a student and
-            Full Stack Web Developer. I enjoy learning HTML,
-            CSS, JavaScript and building websites.
-        </p>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>Contact Me</h2>
-
+        <section id="contect">
+            <h2>Contect Me</h2>
         <form>
-
-            <!-- Name -->
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-
-            <!-- Email -->
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-
-            <!-- Reason -->
-            <label for="reason">Reason:</label>
-            <select id="reason" name="reason">
-                <option value="general">General Question</option>
-                <option value="work">Work Inquiry</option>
-                <option value="feedback">Feedback</option>
+            <label for="Fullname"> Fullname</label>
+            <input type="text"
+            id="Fullname"
+            name="Fullname"
+            required >
+            <br><br>
+            <label for="Email">Email</label>
+            <input type="Email"
+            id="Email"
+            name="Email"
+            required>
+            <br>
+            <br>
+            <label for="Subject">Subject</label>
+            <select name="Subject" id="Subject" required>
+                <option value=""> -- Select subject--</option>
+                <option value=""> webdevelopment</option>
+                <option value=""> Software engineering</option>
+                <option value=""> computer science </option>
             </select>
-
-            <!-- Message -->
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
-
-            <!-- Submit -->
-            <button type="submit">Submit</button>
-
+            <br>
+            <label for="Messege:">Messege:</label><br>
+            <textarea name="Messege" id="Messege" minlength="1000" required></textarea>
+            <br>
+            <button type="submit">submit</button>
         </form>
-    </section>
-
-</main>
-
-<!-- Footer -->
-<footer>
-    <p>&copy; 2026 Haya Noor. All Rights Reserved.</p>
-</footer>
-```
-
+        </section>
+    </main>
 </body>
 </html>
